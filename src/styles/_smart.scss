@@ -1,0 +1,110 @@
+.smart {
+    &__text-preview {
+        margin-top: 40px;
+    }
+    &-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 14px;
+    }
+    &__body > *:not(:last-child):not(.smart__text) {
+        margin-bottom: 24px;
+    }
+    &__body {
+    }
+    &__title h1,
+    &__text p,
+    &__form button {
+        font-family: "Manrope", sans-serif;
+        font-style: normal;
+    }
+    &__title {
+        h1 {
+            font-weight: 800;
+            font-size: 54px;
+            line-height: 73px;
+            color: #000000;
+        }
+    }
+    &__text {
+        margin-bottom: 48px;
+        max-width: 500px;
+        p {
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 23px;
+            letter-spacing: 0.01em;
+            color: #31353b;
+        }
+    }
+    &__form {
+        position: relative;
+        input,
+        input::placeholder {
+            text-indent: 74px;
+            font-family: "Manrope";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 27px;
+            letter-spacing: 0.01em;
+        }
+        input {
+            position: relative;
+            box-sizing: border-box;
+
+            color: #000000;
+            width: 567px;
+            height: 86px;
+            /* white */
+            background: #ffffff;
+            border: 1px solid #dadada;
+            box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778),
+                0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015),
+                0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
+            &::placeholder {
+                color: #31353b;
+                opacity: 0.3;
+            }
+        }
+        button {
+            position: absolute;
+            cursor: pointer;
+            right: -188px;
+            top: 0;
+
+            width: 188px;
+            height: 86px;
+            //text
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 23px;
+            letter-spacing: 0.01em;
+            color: #ffffff;
+            border: 0px solid #f85a47;
+        }
+    }
+    &__image {
+        img {
+            max-width: 603px;
+            max-height: 573px;
+        }
+    }
+    &-footer {
+    }
+    &-footer__partners {
+        margin-bottom: 27px;
+        /* TEXT */
+        font-family: "Manrope", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 23px;
+        letter-spacing: 0.01em;
+        color: #31353b;
+    }
+    .smart-logo {
+        width: 767px;
+        height: 27px;
+    }
+}

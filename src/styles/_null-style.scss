@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    div {
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body,
+div {
+    box-sizing: border-box;
+}
